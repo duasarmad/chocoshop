@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Shop</title>
+
+  <title>Chocolate Shop</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  
+        /* Custom styles */
+        .hero-section {
+          background-image: url('https://www.eatthis.com/wp-content/uploads/sites/4/2021/05/chocolate-bars.jpg?resize=256');
+          background-size: cover;
+          color: #ffffff;
+          text-align: center;
+          padding: 100px 0;
+        }
+        .feature-section {
+          padding: 50px 0;
+          background-color: #f8f9fa;
+        }
+        .feature-section .feature {
+          margin-bottom: 30px;
+        }
+        .footer-section {
+          background-color: #343a40;
+          color: #ffffff;
+          padding: 20px 0;
+          text-align: center;
+        }
+         /* Header styles */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Arial', sans-serif;
+      color: #333333;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    h5 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    h6 {
+      font-size: 14px;
+      font-weight: bold;
+    }
+      </style>
+    </head>
+    <body>
+    
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom">
+        <a class="navbar-brand navbar-brand-custom" href="#"><span class="text-secondary">Chocolate</span><span class="text-warning">Shop</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto fs-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Features
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Chocolates</a>
+                <a class="dropdown-item" href="#">Gift cards</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">bundle gifts </a>
+                
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gifts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Packaging</a>
+              </li>
+          </ul>
+         
+        </div>
+      </nav>
+    
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <h1 style="color: #ffffff;">Welcome to our Chocolate Shop</h1>
+          <p style="color:aliceblue;">Indulge in our delicious assortment of chocolates.</p>
+        </div>
+      </section>
+   
+
+ <!-- Products Section -->
+
+ <section id="products" class="products-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Products</h2>
+      <div class="row">
+        <!-- Chocolate Cards -->
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="https://savorthebest.com/wp-content/uploads/2021/12/how-to-make-homemade-French-dark-chocolate-truffle_1029.jpg" class="card-img-top" alt="Chocolate 1">
+            <div class="card-body">
+              <h5 class="card-title">Dark Chocolate Truffle</h5>
+              <p class="card-text">Indulge in the rich and velvety texture of our Dark Chocolate Truffle. Made from the finest cocoa beans, each bite offers an intense flavor experience, complemented by a smooth, creamy center. Perfect for those who appreciate the bold taste of dark chocolate.</p>
+              <p class="card-text">Price: $10</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Chocolate 2 -->
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="https://henshawshouseofcocoa.com/wp-content/uploads/2020/03/20200309_164755-scaled.jpg" class="card-img-top" alt="Chocolate 2">
+            <div class="card-body">
+              <h5 class="card-title">Milk Chocolate Hazelnut Praline</h5>
+              <p class="card-text">Experience the irresistible combination of creamy milk chocolate and crunchy hazelnut with our Milk Chocolate Hazelnut Praline. Each piece is meticulously crafted to perfection, delivering a harmonious blend of flavors and textures that will delight your senses.</p>
+              <p class="card-text">Price: $12</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Chocolate 3 -->
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="C:\Users\DUA\Downloads\white-chocolate-raspberry-truffles-10.jpg" class="card-img-top" alt="Chocolate 3">
+            <div class="card-body">
+              <h5 class="card-title">White Chocolate Raspberry Cream</h5>
+              <p class="card-text">Savor the sweetness of our White Chocolate Raspberry Cream, a delicate treat bursting with fruity goodness. Made with premium white chocolate.</p>
+              <p class="card-text">Price: $11</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+<section id="about" class="container">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p>Welcome to Chocolate Shop, where passion for chocolate meets unparalleled craftsmanship. Our journey began with a simple yet profound love for the art of chocolate making. With years of dedication and expertise, we've curated a collection that embodies the essence of indulgence.</p>
+    <p>At Chocolate Shop, we believe in the purity of flavors and the magic of creativity. Each chocolate is meticulously crafted using the finest ingredients sourced from around the globe. From classic favorites to innovative creations, our range offers something exquisite for every palate.</p>
+    <p>But our commitment goes beyond just crafting exceptional chocolates. We strive to create memorable experiences for our customers, moments of delight that linger long after the last bite. Whether you're treating yourself or surprising a loved one, our chocolates are designed to elevate every occasion.</p>
+    <p>Thank you for choosing Chocolate Shop. We invite you to join us on this delicious journey, where every bite tells a story of passion, dedication, and above all, pure chocolate bliss.</p>
+  </section>
+  
+
+      <!-- Contact Section -->
+      <section id="contact" class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Footer -->
+      <footer class="footer-section">
+        <div class="container">
+          <p>&copy; 2024 Chocolate Shop. All Rights Reserved.</p>
+        </div>
+      </footer>
+    
+      <!-- Bootstrap JS and dependencies -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
